@@ -26,6 +26,7 @@ library(viridis)
 library(RANN)
 library(igraph)
 library(RColorBrewer)
+library(patchwork)
 ```
 
 ## 1.2 data path setup
@@ -593,7 +594,7 @@ this_arms <- DE %>%
   distinct() %>% 
   .$contrast
 
-pm <- ggpairs_custom(DE,this_arms,0.05,3,batch_s=1,strip_size=8)
+pm <- ggpairs_custom(DE,this_arms,0.1,3,batch_s=1,strip_size=8)
 pm
 ```
 
