@@ -557,7 +557,7 @@ write.csv(rsa_res_best_DMSO_wells,file =file.path(out_data_dir,'best_DMSO_500kee
 
 ```
 
-#3 Step2 DE gene analysis using best DMSO 
+#3 DE gene analysis using best DMSO 
 ```{r,message=FALSE}
 meta <- read.csv(file.path(input_data_dir, 'meta.csv'),stringsAsFactors = F) %>%  mutate(replicate=paste0('rep',plate_replicate),plate_id=paste0(plate_barcode,"_",well_index),barcode_well=paste0(plate_barcode,"_",plate_well))
 load(file.path(out_data_dir, 'Exp_Init.RData'),verbose = T)
@@ -612,7 +612,7 @@ pm
 
 
 
-# 4 Step3 random run for UMAP plot 
+# 4 Step2 random run for UMAP plot 
 ## 4.1 generate SA from DMSO excluding bad DMSO and best DMSO
 ```{r,message=FALSE}
 step2_func<-function(n){
