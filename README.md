@@ -3,10 +3,12 @@ DRUG (Digital RNA with pertUrbation of Genes)-seq data analysis pipeline
 
 ## Introduction
 Unbiased transcriptomic RNA-seq data has provided deep insights about biological processes. However, its impact in drug discovery has been narrow given high costs and low throughput. Proof-of-concept studies with Digital RNA with pertUrbation of Genes (DRUG)-seq demonstrated the potential to address this gap. We extended the DRUG-seq platform by subjecting it to rigorous testing and by adding an open-source analysis pipeline. The results demonstrate high reproducibility and ability to resolve the mechanism(s) of action for a diverse set of compounds. Overall, the protocol and open-source analysis pipeline are a step towards industrializing RNA-seq for high complexity transcriptomics studies performed at a saturating scale.
+## Description
+Raw data is available in [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi). Both Counts data and meta data are available in the data folder of the repo. After cloning the repo, run DRUG-seq_data_analysis_pipeline.Rmd and all results will be saved in a folder called out. 
 ## Data analysis pipeline
 Check our [paper](https://www.biorxiv.org/content/10.1101/2021.06.07.447456v1) for additional information.
-
 ![DRUG-Seq data analysis pipeline](DRUG-seq_data_analysis_flow_chart.png)
+
 ## Publication
 If you are interest in using DRUG-seq in your research, please cite our publication:
 ```
