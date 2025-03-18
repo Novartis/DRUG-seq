@@ -156,6 +156,6 @@ DRUG-seq for miniaturized high-throughput transcriptome profiling in drug discov
 ### GitHub links 
 [![GitHub:Novartis_MoaBox](https://img.shields.io/badge/GitHub-Novartis_MoaBox-6699FF.svg)](https://github.com/Novartis/MoaBox)
 [![GitHub:Novartis_DRUG--seq](https://img.shields.io/badge/GitHub-Novartis_DRUG--seq-6699FF.svg)](https://github.com/Novartis/DRUG-seq)
-[![GitHub:Novartis_DRUG--seq_U2OS_MoABox_Dataset](https://img.shields.io/badge/GitHub-Novartis_DRUG--seq_U2OS_MoABox_Dataset-6699FF.svg)](https://github.com/Novartis/DRUG-seq/data/Novartis_drugseq_U2OS_MoABox/)
+[![GitHub:Novartis_DRUG--seq_U2OS_MoABox_Dataset](https://img.shields.io/badge/GitHub-Novartis_DRUG--seq_U2OS_MoABox_Dataset-6699FF.svg)](https://github.com/Novartis/DRUG-seq/tree/main/data/Novartis_drugseq_U2OS_MoABox)
 ### Zenodo link: 
 [![Zenodo:DOI](https://img.shields.io/badge/Zenodo-Novartis_DRUG--seq_U2OS_MoABox_Dataset-6699FF.svg)](https://dx.doi.org/10.5281/zenodo.14291446)
